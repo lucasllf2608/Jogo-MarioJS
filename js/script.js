@@ -32,4 +32,3 @@ const loop = setInterval(()=>{
 document.addEventListener('keydown', jump);
 document.addEventListener("mousedown", jump);
 
-//https://www.youtube.com/watch?v=r9buAwVBDhA&list=PLzn85sQ8V2VP70sAuh18pd9AM5D4-Uli7&index=71&t=1727s
