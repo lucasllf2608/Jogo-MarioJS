@@ -16,7 +16,7 @@ const loop = setInterval(()=>{
 
  
 
-  if (pipePosition <= 120 && pipePosition > 0  && marioPosition < 100 ){
+  if (pipePosition <= 120 && pipePosition > 0  && marioPosition < 110 ){
     
     pipe.style.animation = 'none';
     pipe.style.left = `${pipePosition}px`;
@@ -26,9 +26,14 @@ const loop = setInterval(()=>{
 
     console.log(marioPosition);
 
+    mario.src = './sprites/game-over.png';
+    mario.style.width = '75px';
+    mario.style.marginLeft = '50px';
+
+  clearInterval(loop);
+
   }
 }, 10);
 
 document.addEventListener('keydown', jump);
 document.addEventListener("mousedown", jump);
-
