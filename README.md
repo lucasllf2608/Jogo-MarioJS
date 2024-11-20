@@ -2,16 +2,12 @@
  
 ### Descrição do projeto:
 <div style="display:inline_block">
-   <p>Projeto de estudo criando um jogo.</p>
+   <p>Este é um projeto de estudo criado com o objetivo de praticar conceitos fundamentais e aprimorar conhecimentos em desenvolvimento web utilizando HTML, CSS e JavaScript. Através deste projeto, pretendo consolidar habilidades e explorar recursos dessas tecnologias para criar páginas e funcionalidades interativas.</p>
 </div>  
-
-
 
 <div style="display:inline_block">
    <image  width="400" height="200" src="https://github.com/user-attachments/assets/77d826c2-e6ef-4e3f-9170-f0fec86d52d8"/>
 </div>  
-
-
 
 ### Tecnologias usadas no projeto:
 <div style="display:inline_block">
