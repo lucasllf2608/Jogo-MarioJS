@@ -5,6 +5,14 @@
    <p>Projeto de estudo criando um jogo.</p>
 </div>  
 
+
+
+<div style="display:inline_block">
+   <image src="https://github.com/user-attachments/assets/77d826c2-e6ef-4e3f-9170-f0fec86d52d8"/>
+</div>  
+
+
+
 ### Tecnologias usadas no projeto:
 <div style="display:inline_block">
    <img alt="html"  align="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"/>
