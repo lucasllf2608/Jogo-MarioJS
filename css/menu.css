@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.menu {
+    background: #FFCC00;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#title-menu{
+    margin-bottom: 20px;
+    color: #23a023;
+}
+.menu button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    background:#23a023;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.menu button:hover {
+    background: #a3ad46;
+}
