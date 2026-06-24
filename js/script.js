@@ -3,6 +3,10 @@ const pipe = document.querySelector('.pipe');
 
 const scoreElement = document.querySelector('.score');
 
+const gameOverModal = document.querySelector('.game-over-screen');
+const scoreFinalElement = document.querySelector('.final-score') ;
+
+
 let score = 0;
 let canoScore = true;
 
@@ -32,6 +36,9 @@ const jump = () => {
     mario.src = './sprites/game-over.png';
     mario.style.width = '75px';
     mario.style.marginLeft = '50px';
+
+    scoreFinalElement.textContent = score;
+    gameOverModal.classList.remove('hide');
 
     clearInterval(loop);
 
