@@ -10,6 +10,12 @@ const scoreFinalElement = document.querySelector('.final-score') ;
 let score = 0;
 let canoScore = true;
 
+
+function restartGame() {
+    window.location.reload();
+}
+
+
 const jump = () => {
   mario.classList.add('jump');
  
