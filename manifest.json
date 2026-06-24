@@ -1,0 +1,16 @@
+{
+    "name":"Jogo Mario JS",
+    "short_name": "MarioJS",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color":"#2c3e50",
+    "theme_color":"#87CEEB",
+    "orientation": "landscape",
+    "icons" : [
+        {
+            "src": "./sprites/start_icon.png",
+            "sizes":"512x512",
+            "type": "image/png"
+        }
+    ]
+}
