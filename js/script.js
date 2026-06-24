@@ -1,6 +1,11 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
+const scoreElement = document.querySelector('.score');
+
+let score = 0;
+let canoScore = true;
+
 const jump = () => {
   mario.classList.add('jump');
  
@@ -10,11 +15,9 @@ const jump = () => {
   
 }
 
-const loop = setInterval(()=>{
+ const loop = setInterval(()=>{
  const pipePosition = pipe.offsetLeft;
  const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', ' ');
-
- 
 
   if (pipePosition <= 120 && pipePosition > 0  && marioPosition < 110 ){
     
@@ -30,10 +33,23 @@ const loop = setInterval(()=>{
     mario.style.width = '75px';
     mario.style.marginLeft = '50px';
 
-  clearInterval(loop);
+    clearInterval(loop);
 
   }
+
+if (pipePosition < 30 && canoScore) {
+    score++;
+    scoreElement.textContent = score;
+    canoScore = false;
+  }
+
+  if (pipePosition > 120) {
+    canoScore = true; 
+  }
+
+ 
 }, 10);
 
 document.addEventListener('keydown', jump);
 document.addEventListener("mousedown", jump);
+ 
